@@ -33,4 +33,7 @@ git push origin main
  git push origin dev
 
 * Exercise 3
-
+git add .
+git commit -m ""
+git push
+git merge ft/bundle-2

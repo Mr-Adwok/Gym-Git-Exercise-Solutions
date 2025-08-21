@@ -13,6 +13,24 @@ Reinitialized existing Git repository in /home/tupac/Documents/Gym-Git-Exercise-
 
 
 * Exercise 2
+git add home.html
+git stash push -m "home.html changes"
+
+git add about.html
+git stash push -m "about.html changes"
+git stash list
+
+
+git add team.html
+git stash push -m "team.html changes"
+
+git add home.html about.html
+git commit -m "Add home and about page changes"
+git push origin main
+
  git stash
- git stash pop
- git stash list
+ git stash pop stash@{1}
+ git push origin dev
+
+* Exercise 3
+

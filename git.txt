@@ -1,0 +1,6 @@
+1.  git init
+Reinitialized existing Git repository in /home/tupac/Documents/Gym-Git-Exercise-Solutions/.git/
+
+2. git branch -m main master(git branch -m main master)
+ git branch
+* master

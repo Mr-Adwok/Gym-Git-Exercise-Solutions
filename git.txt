@@ -1,3 +1,4 @@
+* Bundle 1
 * Exercise 1
 1.  git init
 Reinitialized existing Git repository in /home/tupac/Documents/Gym-Git-Exercise-Solutions/.git/
@@ -32,8 +33,23 @@ git push origin main
  git stash pop stash@{1}
  git push origin dev
 
-* Exercise 3
+
+* Bundle 2
+* Exercise 1
 git add .
 git commit -m ""
 git push
+git push origin main
 git merge ft/bundle-2
+
+
+* Exercise 2
+git merge branch
+git branch ft/service-redesign
+git push origin main
+git checkout main/ft/bundle-2
+git merge ft/bundle-2
+
+
+
+
